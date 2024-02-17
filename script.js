@@ -14,7 +14,7 @@ function multiply(n1, n2) {
 }
 
 function divide(n1, n2) {
-  if (num2 === 0) {
+  if (n2 === 0) {
     displayError("Cannot divide by zero.");
     return;
   } else {
